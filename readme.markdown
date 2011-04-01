@@ -12,6 +12,6 @@ Install node.js.
 
 Pass the filenames to watch as arguments:
 
-node noweb_node.js <filename> ...
+node noweb_node.js filename ...
 
 
