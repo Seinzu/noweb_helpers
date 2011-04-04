@@ -9,6 +9,14 @@ This repo contains several helpful tools for using noweb literate programming wi
 
 A port of noweb.php from [Henri Bergius](https://github.com/bergie) so that it will work in PHP 5.2.  This is a somewhat ugly hack/patch which relies on overuse of static to get around PHP5.2's limitations regarding closures (specifically allowing functions to close over the current object).  Under the lGPL license per original copyright/licensing.    
 
+## noweb_php.lang
+
+TextMate language syntax so that PHP blocks will be appropriately highlighted.
+
+## php-noweb.lang
+
+gedit language plugin so that PHP blocks will be appropriately highlighted.
+
 ## noweb_watch.js
 
 ### Requirements
@@ -27,4 +35,7 @@ Pass the filenames to watch as arguments:
 
 node noweb_watch.js filename ...
 
+## Todo
 
+* Add Eclipse syntax colouring plugin
+* Loads more stuff to do for the watcher
