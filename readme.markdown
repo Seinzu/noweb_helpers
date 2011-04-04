@@ -3,7 +3,9 @@
 This repo contains several helpful tools for using noweb literate programming with PHP.  At present there are two components:
 
 * A node.js tool that watches specified noweb files and performs tangle on them ("compiling" them into usable code) when they are saved.
+* A slight alteration to noweb.php by Henri Bergius to allow it to run in < PHP 5.3 (only tested in 5.2)
 * A language bundle file for TextMate on the Macintosh that will syntax highlight PHP code in TextMate.
+* A language plugin file for Gedit.
 
 ## noweb.php
 
